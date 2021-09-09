@@ -3,7 +3,7 @@ html,body
   {
       width: 100%;
       height: 100%;
-      margin: 0px;
+      margin: 0 auto 0 auto;
       padding: 0px;
       overflow-x: hidden;
       text-align: center;
@@ -100,7 +100,7 @@ h2{
 
   position: absolute;
   left: 20px;
-  top: 230px;
+  top: 240px;
 }
 
 .suthi{
@@ -113,13 +113,13 @@ h2{
 .textSuthi{
   margin: 0 auto 0 auto;
   position: relative;
-  top: 870px;
+  top: 930px;
   right: -45px;
 }
 .suthiPic{
   width:350px;
   position: absolute;
-  top: 600px;
+  top: 660px;
   left: 50px;
 }
 .textKmutt{
