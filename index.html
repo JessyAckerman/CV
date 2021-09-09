@@ -4,15 +4,19 @@
     <meta charset="utf-8">
     <title>Jadsada's CV</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Admedia.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/89af7881b8.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="pics/favicon.ico">
   </head>
 
   <body>
-    <div class="topBar">
+    <div id="topBar">
     <ul>
-      <a href="#"><h3 class="brand">Jadsada's CV</h3></a>
+      <a href="#"><h3 class="brand" onclick="toggleBar()">Jadsada's CV</h3></a>
+      <a href="javascript:void(0);" class="icon">
+    <i class="fa fa-bars fa-2x"></i>
       <li><a class= "aboutme" href="#">About me</a></li>
       <li><a href="#education">Education</a></li>
       <li><a href="#workEx">Work experienced</a></li>
@@ -20,12 +24,12 @@
       <li class="contactPage"><a href="#contact">Contact</a></li>
     </ul>
   </div>
-  <div class="clock">
-    <!--Dayspedia.com widget--><iframe width='280' height='180' style='padding:0!important;margin:0!important;border:none!important;background:none!important;background:transparent!important' marginheight='0' marginwidth='0' frameborder='0' scrolling='no' comment='/*defined*/' src='https://dayspedia.com/if/digit/?v=1&iframe=eyJ3LTEyIjp0cnVlLCJ3LTExIjp0cnVlLCJ3LTEzIjp0cnVlLCJ3LTE0IjpmYWxzZSwidy0xNSI6ZmFsc2UsInctMTEwIjpmYWxzZSwidy13aWR0aC0wIjp0cnVlLCJ3LXdpZHRoLTEiOmZhbHNlLCJ3LXdpZHRoLTIiOmZhbHNlLCJ3LTE2IjoiMjRweCIsInctMTkiOiI0OCIsInctMTciOiIxNiIsInctMjEiOnRydWUsImJnaW1hZ2UiOi0yLCJiZ2ltYWdlU2V0IjpmYWxzZSwidy0yMWMwIjoiI2ZmZmZmZiIsInctMCI6dHJ1ZSwidy0zIjp0cnVlLCJ3LTNjMCI6IiMzNDM0MzQiLCJ3LTNiMCI6IjEiLCJ3LTYiOiIjMzQzNDM0Iiwidy0yMCI6dHJ1ZSwidy00IjoiIzAwN2RiZiIsInctMTgiOmZhbHNlLCJ3LXdpZHRoLTJjLTAiOiIzMDAifQ==&lang=en&cityid=4251'></iframe><!--Dayspedia.com widget ENDS-->
-  </div>
   <div id ="myPicSection">
     <table>
       <tr>
+        <div class="clock">
+          <!--Dayspedia.com widget--><iframe width='280' height='180' style='padding:0!important;margin:0!important;border:none!important;background:none!important;background:transparent!important' marginheight='0' marginwidth='0' frameborder='0' scrolling='no' comment='/*defined*/' src='https://dayspedia.com/if/digit/?v=1&iframe=eyJ3LTEyIjp0cnVlLCJ3LTExIjp0cnVlLCJ3LTEzIjp0cnVlLCJ3LTE0IjpmYWxzZSwidy0xNSI6ZmFsc2UsInctMTEwIjpmYWxzZSwidy13aWR0aC0wIjp0cnVlLCJ3LXdpZHRoLTEiOmZhbHNlLCJ3LXdpZHRoLTIiOmZhbHNlLCJ3LTE2IjoiMjRweCIsInctMTkiOiI0OCIsInctMTciOiIxNiIsInctMjEiOnRydWUsImJnaW1hZ2UiOi0yLCJiZ2ltYWdlU2V0IjpmYWxzZSwidy0yMWMwIjoiI2ZmZmZmZiIsInctMCI6dHJ1ZSwidy0zIjp0cnVlLCJ3LTNjMCI6IiMzNDM0MzQiLCJ3LTNiMCI6IjEiLCJ3LTYiOiIjMzQzNDM0Iiwidy0yMCI6dHJ1ZSwidy00IjoiIzAwN2RiZiIsInctMTgiOmZhbHNlLCJ3LXdpZHRoLTJjLTAiOiIzMDAifQ==&lang=en&cityid=4251'></iframe><!--Dayspedia.com widget ENDS-->
+        </div>
         <th class="textMypic">
           <h1 class="cvH1">🇹🇭 Jadsada's CV 🇹🇭</h1>
           <p>Hi, My name is Jadsada Thanyapanich.<br> I am a freelance who love and enjoy <br> creating new things.</p>
@@ -108,7 +112,7 @@
           <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></td>
         <td class="skillPadding">
           <img class="skillPic"src="pics/PremierePro.png" alt="PremierePro picture">
-          <h3>Premiere Pro</h3>
+          <h3 class="pp">Premiere Pro</h3>
           <p>very good</p>
           <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></td>
       </tr>
@@ -136,13 +140,13 @@
           <p>Good</p>
           <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></td>
         <td class="skillPadding">
-          <i class="fas fa-language fa-6x"></i>
+          <i class="fas fa-language"></i>
           <h3>English skill</h3>
-          <p>Toeic score 665</p>
+          <p class="pp">Toeic score 665</p>
         <td class="skillPadding">
-          <i class="fas fa-car-side fa-4x"></i><i class="fas fa-motorcycle fa-4x"></i>
+          <i class="fas fa-car-side"></i><i class="fas fa-motorcycle"></i>
           <h3>Driver license</h3>
-          <p>Car and Motorcycle</p>
+          <p class="pp">Car and Motorcycle</p>
       </tr>
     </table>
   </div>

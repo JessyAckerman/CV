@@ -4,6 +4,7 @@ body {
   background-color: white;
   word-spacing: 2px;
   text-align: center;
+  overflow-x: hidden;
 }
 h1{
   font-size: 3rem;
@@ -22,9 +23,13 @@ p {
   margin: 0 auto 0 auto;
   line-height: 1.8
 }
-.topBar {
+#topBar {
+  width: 100%;
   z-index:  1;
   position: relative;
+}
+#topBar .icon{
+  display: none;
 }
 .brand {
   font-family: 'Playfair Display', serif;
@@ -53,10 +58,10 @@ ul {
   overflow: hidden;
   background-color: #F21170;
   position: fixed;
-  top: 0;
+  top: 0px;
   width: 100%;
 }
-li {
+li{
   display: inline-block;
   color: white;
   text-align: center;
@@ -76,7 +81,7 @@ li:hover {
   transition: .3s;
   font-size: 1rem;
   background-color: #fe99b6;
-  border-radius: 5%;
+  border-radius: 0%;
 }
 a:hover {
   font-size:1.1rem;
@@ -114,8 +119,8 @@ a:hover {
 }
 .clock {
   position: absolute;
-  left: 263px;
-  top: 195px;
+  left: 85px;
+  top: 0px;
 }
 .breadPit {
   position: absolute;
@@ -143,6 +148,7 @@ a:hover {
 /* education */
 
 #education {
+  width: 100%;
   margin: 0 auto 0 auto;
   text-align: center;
   position: relative;
@@ -260,6 +266,13 @@ padding: 30px 0px;
   margin-top: 15px;
   margin-right: 10px;
   margin-bottom: 15px;
+  font-size: 4rem;
+}
+.fa-language{
+  font-size: 6rem;
+}
+.fa-motorcycle{
+  font-size: 4rem;
 }
 
 /* contact */
@@ -279,7 +292,7 @@ padding: 30px 0px;
   padding: 3%
 }
 .conatactH1 {
-  padding-top: 2%;
+  padding: 3% 0%;
   margin: 0px;
   color: white;
 }

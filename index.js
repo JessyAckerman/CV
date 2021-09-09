@@ -1,5 +1,13 @@
 
-alert("Hello Everybody! สวัสดีครับ");
+
+$("ul .icon").click(function () {
+  $(this).addClass("pressed");
+  $("ul li").toggle("block");
+  $("ul li").removeClass("removeli");
+  setTimeout(function(){
+    $("ul .icon").removeClass("pressed");
+  },150);
+});
 
 $("ul li a").click(function(){
   $(this).addClass("pressed");
