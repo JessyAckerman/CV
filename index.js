@@ -1,9 +1,7 @@
 
-
 $("ul .icon").click(function () {
   $(this).addClass("pressed");
-  $("ul li").toggle("block");
-  $("ul li").removeClass("removeli");
+  $("li").toggle("barToggle");
   setTimeout(function(){
     $("ul .icon").removeClass("pressed");
   },150);

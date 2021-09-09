@@ -5,8 +5,11 @@ html{
 body {
   text-align: center;
 }
-#topBar li {
+li {
     display: none;
+}
+.brand {
+  display: block;
 }
 .barToggle{
   display: block;
