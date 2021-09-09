@@ -62,10 +62,10 @@ li {
 }
 .myImage{
   position: absolute;
-  left: 85px;
+  left: 90px;
   text-align: center;
-  top: 150px;
-  width: 300px;
+  top: 165px;
+  width: 270px;
 }
 .textMypic{
   position: relative;
@@ -84,7 +84,7 @@ li {
   margin-bottom: 300px;
 }
 h1{
-  font-size: 2.5rem;
+  font-size: 2.2rem;
 }
 h2{
   margin: 0 auto 3 auto;
@@ -113,13 +113,13 @@ h2{
 .textSuthi{
   margin: 0 auto 0 auto;
   position: relative;
-  top: 930px;
-  right: -45px;
+  top: 860px;
+  right: -50px;
 }
 .suthiPic{
   width:350px;
   position: absolute;
-  top: 660px;
+  top: 600px;
   left: 50px;
 }
 .textKmutt{
