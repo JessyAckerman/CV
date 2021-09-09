@@ -80,6 +80,7 @@ li {
   top: -10px;
 }
 #myPicSection {
+  position: relative;
   width: 80%;
   margin-bottom: 300px;
 }
@@ -137,6 +138,7 @@ h2{
 }
 
 #education {
+  position: relative;
   padding-bottom: 1150px;
   width: 100%;
 }
@@ -190,6 +192,7 @@ h3 {
 
 }
 #workEx {
+  position: relative;
   width: 100%;
 }
 .workWitdh{
@@ -198,7 +201,12 @@ h3 {
   text-align:  center;
 }
 #skill{
+  position: relative;
   width: 80%;
+}
+#contact {
+  position: relative;
+  width: 100%;
 }
 .contactGroup {
   display:block;
