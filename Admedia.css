@@ -1,7 +1,12 @@
 @media (max-width: 768px){
-html{
+html,body
+  {
+      width: 100%;
+      height: 100%;
+      margin: 0px;
+      padding: 0px;
       overflow-x: hidden;
-}
+  }
 body {
   text-align: center;
 }
@@ -21,9 +26,14 @@ li {
   float: right;
   display: block;
 }
-  /* .ulBar {
-  bottom : 380px;
-} */
+
+.starGif2{
+  position: absolute;
+  top: 400px;
+  left: -230px;
+  width: 30px;
+  z-index: -1;
+}
 .aboutme{
     position: relative;
     right: 65px;
