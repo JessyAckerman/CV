@@ -180,10 +180,18 @@ h3 {
   position: relative;
   width: 100%;
 }
+.Secwork{
+  display: block;
+}
 .workWitdh{
   width: 80%;
   margin: 0 auto 0 auto;
   text-align:  center;
+}
+.workDN {
+  position: relative;
+  margin: 10 auto 0 auto;
+  width: 220px;
 }
 #skill{
   position: relative;
