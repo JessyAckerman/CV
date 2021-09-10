@@ -137,9 +137,11 @@ h2{
   width: 100%;
 }
 .workExPic{
-  width: 350px;
+  width: 300px;
   position: relative;
   margin: 10 auto 0 auto;
+  align-items: center;
+  text-align: center;
 }
 .skillTable {
   width: 100%;
