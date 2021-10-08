@@ -1,0 +1,262 @@
+body {
+  background-color: white;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  font-family: 'Open Sans', sans-serif;
+}
+p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+h1 {
+  font-size: 2.5rem;
+  padding: 5px 0px;
+}
+h2 {
+  font-size: 1.8rem;
+}
+h3 {
+  font-size: 1.4rem;
+}
+a {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  color: white;
+  font-size: 1.3rem;
+  filter: drop-shadow(5px 5px 6px #D5F7FF);
+}
+a:hover {
+  color: #FFE05D;
+  transition: 0.4s;
+  font-size: 1.5rem;
+  filter: drop-shadow(5px 5px 6px #FFCD00);
+}
+ul {
+  margin-top: 40px;
+}
+li {
+  display: inline-block;
+  padding: 0 3% 0 3%;
+}
+.Gold{
+  color: gold;
+  padding: 2% 0;
+}
+.FixBar {
+  transition: .5s;
+  opacity: 100%;
+  position: fixed;
+  z-index: 1;
+  left: 80px;
+  top: 60px;
+}
+.ronsonolPrize {
+  width: 470px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 0;
+  opacity: 15%;
+}
+.IntercarePrize {
+  width: 470px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 0;
+  opacity: 15%;
+}
+.SiamOnePrize{
+  width: 500px;
+  position: absolute;
+  top: 0px;
+  left: 470px;
+  z-index: 0;
+  opacity: 15%;
+}
+.fa-3x {
+  padding-bottom: 20px;
+}
+#Header {
+  background-color: #F21170;
+  color: white;
+  padding: 2% 0 4% 0;
+  position: relative;
+}
+.MyportText {
+  position: relative;
+  top: 20px;
+  padding: 2% 0;
+}
+#Video {
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+  background-image: linear-gradient(180deg, #F21170, #440A67);
+  color: white;
+  padding-top: 0px;
+  padding-bottom:40px;
+}
+.h1Video {
+  padding: 2% 0;
+  font-size: 2.5rem;
+  margin: 0px auto 40px auto;
+  color: #F21170;
+  background-color: white;
+}
+.VideoMargin {
+  margin: 10px auto 30px auto;
+}
+.fa-trophy {
+  color: gold;
+  padding-right: 5px;
+}
+.whiteGold {
+  color: #FFE05D;
+}
+.otherWorkVideo{
+  padding-top: 20px;
+}
+#Graphic {
+  font-family: 'Open Sans', sans-serif;
+}
+.Kale {
+  padding: 3% 0;
+}
+.h1Graphic {
+  color: #440A67;
+}
+.GraphicPort {
+  background-image: linear-gradient(0deg, #F21170, #440A67);
+}
+.EP-logo{
+  width: 300px;
+  position: relative;
+  bottom: 5px;
+}
+.KaleFBcover {
+  transform: rotate(180deg);
+}
+.white {
+  color: white;
+}
+.bettaLogo{
+  width: 800px;
+}
+.cdLogo {
+  width: 800px;
+  background-color: white;
+}
+.Betta {
+  padding-bottom: 3%;
+}
+.Tako {
+  padding-bottom: 3%;
+}
+.cdHardware {
+  padding-bottom: 3%;
+}
+.Bloodpressure {
+  padding-bottom: 3%;
+}
+.dayandnight {
+  padding-bottom: 3%;
+}
+.DNLogo {
+  width: 300px;
+}
+.YRC {
+  padding-bottom: 3%;
+}
+.YrcLogo {
+  width: 800px;
+}
+.CCIC {
+  padding-bottom: 0%;
+}
+.CCICposter {
+  width: 400px;
+}
+.Toppackpic {
+  width: 800px;
+}
+.Toppack {
+  padding-bottom: 3%;
+}
+.Posterpic {
+  width: 800px;
+}
+.Movieposter {
+  padding-bottom: 6%;
+}
+.Sunyata {
+  padding: 3% 0%;
+}
+.sunyatapic {
+  width: 800px;
+}
+#Photoshoot {
+  background-image: linear-gradient(180deg, #F21170, #440A67);
+  padding-bottom: 3%;
+}
+.h2Photoshoots{
+  padding: 1% 0%;
+  color: #440A67;
+}
+.BettaCoffeePic {
+  width: 800px;
+}
+.astapic {
+  width: 800px;
+}
+.Asta {
+  padding: 3% 0%;
+}
+#contact {
+  position: relative;
+  top: 0px;
+  background-color: #F21170;
+  padding: 2% 0;
+  line-height: 1;
+}
+.contactGroup {
+  position: relative;
+  top: 20px;
+  margin: 0 auto 0 auto;
+  width: 70%;
+}
+.inline {
+  display: inline-block;
+  padding: 3%;
+}
+.conatactH1 {
+  padding: 2% 0%;
+  margin: 0px;
+  color: #F21170;
+}
+.facebook {
+  position: relative;
+  right: 20px;
+  bottom: 10px;
+
+}
+.facebookH3{
+  padding: 10% 0% 0% 0%;
+}
+.facebookH3 :hover {
+  font-size: 2rem;
+  transition: .3s;
+}
+.footer {
+  z-index: 0;
+  position: relative;
+  top: 50px;
+  padding: 1%;
+  background-color: white;
+}
+.textWhite {
+  color: white;
+}
