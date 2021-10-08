@@ -22,10 +22,8 @@ $("ul h3").click(function () {
 });
 
 $(".aboutme").click(function(){
-  $(this).text("Undone.");
-  $(this).addClass("undone");
+  $(this).addClass("pressed");
   setTimeout(function(){
-    $(".aboutme").text("About me");
-    $(".aboutme").removeClass("undone");
-  },1000);
+    $(".aboutme").removeClass("pressed");
+  },150);
 });
